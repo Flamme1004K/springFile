@@ -12,7 +12,7 @@ spring:
       hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
       hibernate.hbm2ddl.import_files_sql_extractor: org.hibernate.tool.hbm2ddl.MultipleLinesSqlCommandExtractor
     hibernate:
-      ddl-auto: none
+      ddl-auto: create-drop
     generate-ddl: true
 
   error:
